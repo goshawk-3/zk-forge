@@ -1,7 +1,7 @@
 # zk-forge
 A forge where zero-knowledge proofs are crafted at scale.
 
-A decentralized network that links incentivized provers and requesters for ZK proof generation.
+A decentralized marketplace that seamlessly connects requesters with incentivized provers for scalable, cost-effective computation of diverse zero-knowledge (ZK) proofs.
 
 
 ## Concept Overview:
@@ -18,6 +18,8 @@ Users can submit tasks for ZK proof generation, including zkRollups, ZK bridges,
     
 ### Matchmaker System
 A decentralized matchmaker evaluates both buy (demand) and sell (supply) orders in real-time. It pairs requesters with the best available prover based on factors such as type of proof, price, and performance. The system ensures optimal matching between cost and performance for both parties.
+
+Additionally, a matchmaker should work in conjunction with a **reputation system**, where provers with more contributions and better performance ratings receive higher prioritization for matching. 
 
 ### Incentive Model:
 Provers are incentivized to offer competitive price-performance ratios. Higher demand is funneled towards provers that deliver faster, more cost-effective solutions. Upon successful computation, the prover receives the payment pre-funded by the requester.
