@@ -2,7 +2,7 @@
 A forge where zero-knowledge proofs are crafted at scale.
 
 A decentralized marketplace that seamlessly connects requesters with incentivized provers for scalable, cost-effective computation of diverse zero-knowledge (ZK) proofs.
-
+The system is to be in favour of many industries: blockchain scalability (zkRollups), cross-chain solutions (ZK bridges), privacy-enhancing technologies, and even AI with ZK-powered machine learning. By enabling open participation, we can create a broad, decentralized ecosystem with incentives driving innovation and efficiency in zero-knowledge proof computations.
 
 ## Concept Overview:
 
@@ -21,6 +21,9 @@ A decentralized matchmaker evaluates both buy (demand) and sell (supply) orders 
 
 Additionally, a matchmaker should work in conjunction with a **reputation system**, where provers with more contributions and better performance ratings receive higher prioritization for matching. 
 
+### Reputation system
+Provers start with a neutral or base reputation score when they join the network. As provers complete ZK proof jobs successfully, their reputation increases based on specific metrics.
+
 ### Incentive Model:
 Provers are incentivized to offer competitive price-performance ratios. Higher demand is funneled towards provers that deliver faster, more cost-effective solutions. Upon successful computation, the prover receives the payment pre-funded by the requester.
 
@@ -29,7 +32,4 @@ The network allows anyone to contribute hardware as provers in a permissionless 
 
 ### Pre-funded, Trustless System:
 All jobs are pre-funded by the requesters to ensure trustless interactions. Fees are automatically transferred to provers once a valid proof is successfully generated and verified.
-
-
-The system is to be in favour of many industries: blockchain scalability (zkRollups), cross-chain solutions (ZK bridges), privacy-enhancing technologies, and even AI with ZK-powered machine learning. By enabling open participation, we can create a broad, decentralized ecosystem with incentives driving innovation and efficiency in zero-knowledge proof computations.
     
